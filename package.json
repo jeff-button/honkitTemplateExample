@@ -1,0 +1,17 @@
+{
+  "name": "honkit-example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "serve": "honkit serve adoc",
+    "build": "honkit build . dist"
+  },
+  "author": "Jeff Button",
+  "license": "ISC",
+  "dependencies": {
+    "honkit": "^4.0.4",
+    "honkit-plugin-search-plus": "^1.0.0",
+    "honkit-plugin-toggle-chapters": "^0.0.1"
+  }
+}

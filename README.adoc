@@ -1,0 +1,7 @@
+== Example
+
+This is regular text
+
+{% raw %} PARENT - this will {{ not be processed }} {% endraw %}
+
+include::./child.adoc[]
